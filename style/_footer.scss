@@ -1,0 +1,37 @@
+.footer{
+
+    background-color: $veryDarkBlackBlue;
+    border-radius: 0 7rem 0 0;
+    &__grid{
+        padding-top: 4.375rem;
+        padding-bottom: 5.0625rem;
+        padding-left: 10.375rem;
+        padding-right: 10.375rem;
+        @include breakpoint-down('medium'){
+            text-align: center;
+        }
+        h3{
+            color: $white;
+            margin-bottom: 2.75rem;
+            cursor: pointer;
+            @include breakpoint-down('medium'){
+                margin-bottom: 2rem;
+                &:first-child{
+                    margin-top: 2rem;
+                }
+            }
+        }
+        p{
+            color: $grayishBlue;
+            cursor: pointer;
+            &:not(:last-child){
+                margin-bottom: .8rem;
+            }
+            &:last-child{
+            @include breakpoint-down('medium'){
+                margin-bottom: 3rem;
+            }
+        }
+        }
+    }
+}

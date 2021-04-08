@@ -1,0 +1,51 @@
+.content {
+  &__wrapper {
+    text-align: center;
+   // background-color: $white;
+    border-radius: 1rem 1rem;
+    margin: 0 auto;
+    transform: translateY(-150px);
+
+    height: 200vh;
+    width: 60%;
+    &__logo {
+      img {
+        transform: translateY(-20px);
+      }
+    }
+
+    &__hero {
+        background-color: $white;
+        border-radius: 1rem 1rem;
+        padding: 4.0625rem ;
+        margin-bottom: 2rem;
+        p{
+            padding-top: 1.6875rem;
+            font-size: 1.3rem;
+        }
+        button{
+            &:not(:first-child){
+                color: $darkGray;
+                background-color: $lightGray;
+            }
+        }
+        &__cta{
+            margin-top: 2.375rem;
+            display: flex;
+            justify-content: space-around;
+            
+        }
+    }
+    &__section1{
+        background-color: $white;
+        border-radius: 1rem 1rem;
+        height: 10%;
+        padding:3.43rem 3rem;
+        &__portion1{
+            text-align: left;
+           
+        }
+        
+    }
+  }
+}
