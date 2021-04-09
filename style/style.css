@@ -73,6 +73,18 @@ h3 {
   font-weight: 600;
 }
 
+h4 {
+  font-family: "Commissioner", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h5 {
+  font-family: "Commissioner", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
 p {
   font-family: "Commissioner", sans-serif;
   font-weight: 400;
@@ -452,6 +464,8 @@ button:hover {
   margin: 0 auto;
   -webkit-transform: translateY(-150px);
           transform: translateY(-150px);
+  padding-left: 3rem;
+  padding-right: 3rem;
   height: 200vh;
   width: 60%;
 }
@@ -487,14 +501,55 @@ button:hover {
       justify-content: space-around;
 }
 
-.content__wrapper__section1 {
-  background-color: white;
-  border-radius: 1rem 1rem;
-  height: 10%;
-  padding: 3.43rem 3rem;
-}
-
 .content__wrapper__section1__portion1 {
   text-align: left;
+}
+
+.content__wrapper__section1__portion2__container {
+  height: 1.3rem;
+  background-color: #f7f7f7;
+  border-radius: 1rem;
+  margin-top: 2.375rem;
+}
+
+.content__wrapper__section1__portion2__container__skill {
+  width: 60%;
+  border-radius: 1rem;
+  background-color: #147b74;
+  color: #147b74;
+  padding: 1%;
+}
+
+.content__wrapper__section2 {
+  margin-top: 1.6rem;
+  text-align: left;
+}
+
+.content__wrapper__section2 h3 {
+  margin-bottom: 3.25rem;
+}
+
+.content__wrapper__section2__reward {
+  margin: 3rem 3rem;
+}
+
+.content__wrapper__section2__reward h5 {
+  color: #147b74;
+}
+
+.section-style {
+  background-color: white;
+  border-radius: 1rem 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 3.43rem;
+  padding-bottom: 3.3rem;
+}
+
+.reward-style {
+  background-color: white;
+  border-radius: 1rem;
+  border: solid #7a7a7a 0.2rem;
+  padding: 2.625rem 2.185rem;
 }
 /*# sourceMappingURL=style.css.map */
