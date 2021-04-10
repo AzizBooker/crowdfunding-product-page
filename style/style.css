@@ -81,16 +81,18 @@ h4 {
 
 h5 {
   font-family: "Commissioner", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 300;
 }
 
 p {
   font-family: "Commissioner", sans-serif;
   font-weight: 400;
+  color: #7a7a7a;
   word-spacing: 2px;
-  line-height: 1.7rem;
+  line-height: 2rem;
   letter-spacing: 0.3px;
+  font-size: 1.2rem;
 }
 
 button {
@@ -100,9 +102,9 @@ button {
   border-color: transparent;
   border-radius: 3rem;
   font-family: "Commissioner", sans-serif;
-  font-weight: 500;
-  font-size: 1.5rem;
-  padding: 0.8rem 1.4rem;
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding: 0.6rem 1.2rem;
 }
 
 button:hover {
@@ -424,7 +426,7 @@ button:hover {
   background-image: url(../images/image-hero-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center left;
+  background-position: top left;
   height: 24rem;
 }
 
@@ -489,7 +491,7 @@ button:hover {
 
 .content__wrapper__hero button:not(:first-child) {
   color: #7a7a7a;
-  background-color: #f7f7f7;
+  background-color: #cccccc;
 }
 
 .content__wrapper__hero__cta {
@@ -507,7 +509,7 @@ button:hover {
 
 .content__wrapper__section1__portion2__container {
   height: 1.3rem;
-  background-color: #f7f7f7;
+  background-color: #cccccc;
   border-radius: 1rem;
   margin-top: 2.375rem;
 }
@@ -535,6 +537,26 @@ button:hover {
 
 .content__wrapper__section2__reward h5 {
   color: #147b74;
+  font-weight: 500;
+}
+
+.content__wrapper__section2__reward :not(:first-child) {
+  margin-top: 1.625rem;
+}
+
+.content__wrapper__section2__reward_element_end h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content__wrapper__section2__reward_element_end h4 span {
+  font-size: 1rem;
+  color: #7a7a7a;
+  padding-left: .3rem;
 }
 
 .section-style {
@@ -548,8 +570,25 @@ button:hover {
 
 .reward-style {
   background-color: white;
-  border-radius: 1rem;
-  border: solid #7a7a7a 0.2rem;
+  border-radius: .8rem;
+  border: solid #cccccc 0.2rem;
   padding: 2.625rem 2.185rem;
+}
+
+.reward-style h4:first-child {
+  margin-bottom: 2.31rem;
+}
+
+.reward-style-disabled {
+  background-color: white;
+  border-radius: .8rem;
+  border: solid #cccccc 0.2rem;
+  padding: 2.625rem 2.185rem;
+  -webkit-filter: opacity(0.5);
+          filter: opacity(0.5);
+}
+
+.reward-style-disabled button {
+  background-color: #7a7a7a;
 }
 /*# sourceMappingURL=style.css.map */

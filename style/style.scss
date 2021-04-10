@@ -17,7 +17,28 @@
 }
 .reward-style{
     background-color: $white;
-    border-radius: 1rem;
-    border: solid $darkGray 0.20rem;
+    border-radius: .8rem;
+    border: solid $lightGray 0.20rem;
     padding:2.625rem 2.185rem;
+    h4{
+        &:first-child{
+        margin-bottom: 2.31rem;
+        }
+        
+    }
+    
+    :not(:first-child){
+       
+    }
+
+    &-disabled{
+     background-color: $white;
+    border-radius: .8rem;
+    border: solid $lightGray 0.20rem;
+    padding:2.625rem 2.185rem;
+    filter: opacity(.5);
+        button{
+            background-color: $darkGray;
+        }
+    }
 }

@@ -27,7 +27,7 @@ padding-left: 3rem;
       button {
         &:not(:first-child) {
           color: $darkGray;
-          background-color: $lightGray;
+          background-color: $lightGray
         }
       }
       &__cta {
@@ -74,13 +74,28 @@ padding-left: 3rem;
       margin: 3rem 3rem;
       h5{
         color: $darkCyan;
-      }
-      &_1{
+        font-weight: 500;
         
       }
-      &_2{
-
+      :not(:first-child){
+        margin-top: 1.625rem;
       }
+      &_element{
+        &_end{
+          h4{
+            
+            display: flex;
+            
+            align-items: center;
+            span{
+              font-size: $font-sm;
+              color: $darkGray;
+              padding-left: .3rem;
+            }
+          }
+        }
+      }
+     
     }
   }
 
